@@ -8,10 +8,10 @@ In IT, the term [prompt](https://en.wikipedia.org/wiki/Command-line_interface#Co
 
 ### Prompt engineering
 The process of optimizing the prompt is referred to as "prompt engineering". There are also numerous sources and handouts on the Internet that provide tips for creating prompts under this term (see e.g. [collection of links on prompt engineering in the OpenAI Cookbook](https://cookbook.openai.com/articles/related_resources) for an extensive collection). However, although so much has been written about prompting, it is actually anything but difficult. 
-Prof. Ethan Mollick writes (translated from the article [Working with AI: Two paths to prompting](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting)): "The most important message is that you learn how to use AI by using AI. [...] The more you use AI, the more you develop a sense of what it is good and not so good for".
+Prof. Ethan Mollick writes (in his article [Working with AI: Two paths to prompting](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting)): "The most important message is that you learn how to use AI by using AI. [...] The more you use AI, the more you develop a sense of what it is good and not so good for".
 It is therefore much more important than prompt engineering to learn how to use an AI system by using it. Prof. Mollick writes on X (formerly Twitter) that he observes that users get the "hang of it" after about 10 hours of using the strongest possible AI system (such as GPT-4). So the first step is often to get started and write with the AI chatbot in a similar way to a human.
 
-**Write as if to a human:** Many people use the prompt in a similar way to the search slot of a search engine or database. With search engines and databases, it was important to reduce the question to as few and as precise search terms as possible. The whole thing had to remain concise, because too much context would only have led to inappropriate hits. Interestingly, these rules no longer apply to language models such as ChatGPT. Input in colloquial language is not a problem and more detailed input usually even leads to better answers and not to the model being "confused". In a sense, therefore, to use AI chatbots effectively, we need to train ourselves to do the very behaviors that search slots have trained us to do for the longest time.
+**Write as if to a human:** Many people use the prompt in a similar way to the search slot of a search engine or database. With search engines and databases, it was important to reduce the question to as few and as precise search terms as possible. The whole thing had to remain concise, because too much context would only have led to inappropriate hits. Interestingly, these rules no longer apply to language models such as ChatGPT. Input in colloquial language is not a problem and more detailed input usually even leads to better answers and not to the model being "confused". In a sense, therefore, to use AI chatbots effectively, we need to train ourselves to do the very behaviors that search slots have trained us *not* to do for the longest time.
 
 **Prompt improvement by example:** In this section we look at specific examples to demonstrate how to make prompts more effective. A well-formulated prompt is critical to the quality of the response you receive from an AI system. Possible problems in prompt creation can include ambiguous input, unclear intentions, suggestively worded questions or the mixing of different topics. The aim of these examples is to gain a better understanding of precise and well thought-out prompts.
 
@@ -57,14 +57,14 @@ Here is a complete example:
 - **Additional Information:** I am particularly interested in historical sites and am a lover of sushi. I would also like to go on a hike.
 
 
-### Prompting-Tipps von OpenAI
+### Prompting advice by OpenAI
 
 OpenAI (the developers of ChatGPT) also describe in more detail in their article <a href=“https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering”>Prompt Engineering</a> what they consider to be a “good” prompt:
 
 1. **Be specific**: Make sure requests include any important details or context so the model doesn't have to guess what you mean. The more specific you are in describing the background, your request and the type of output you expect, the better the response will be.
 1. **Be modular**: Break down complex tasks into a series of simpler tasks that can be completed in sequence. Use structure, such as bullet points, to clearly divide aspects.
 1. **Be patient**: Ask the model to describe the path to the answer first instead of answering immediately. You will get better answers if the model first develops a solution ("chain of thought") and then carries it out.
-1. **Be complementary**: When too little information is available, language models tend to invent inaccurate answers. Therefore, provide the model with relevant and up-to-date information so that it can answer better. If you need access to sources (such as documents or books), use AI systems that can process data. 
+1. **Be complementary**: When too little information is available, language models tend to invent inaccurate answers. Therefore, provide the model with relevant and up-to-date information so that it can come up with a better answer. If you need access to sources (such as documents or books), use AI systems that can process data. 
 1. **Be accurate**: Generative AIs are not the best solution for every task. For example, language models such as GPT-3.5 are good at developing a solution procedure, but not particularly good and reliable at computing. Therefore, use other tools (such as GPT-4 with code interpreter) to perform operations that the model cannot perform independently.
 1. **Be evaluative**: Create and compare different prompts systematically to better assess and optimize the effect of the prompt and the performance of the model.
    
